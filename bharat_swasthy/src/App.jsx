@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
+import { Analytics } from "@vercel/analytics/next"
 
 const App = () => {
     const [activeSection, setActiveSection] = useState('home');
@@ -41,6 +42,7 @@ const App = () => {
                 {renderSection()}
             </main>
             <Footer onNavigate={navigateTo} />
+            <Analytics />
         </div>
     );
 };
