@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
     const [activeSection, setActiveSection] = useState('home');

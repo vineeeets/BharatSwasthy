@@ -13,7 +13,7 @@ const About = () => {
     ];
 
     return (
-        <section id="about" className="py-8 bg-gray-50">
+        <section id="about" className="py-4 bg-gray-50">
             <div className="container mx-auto px-4 md:px-8">
                 <div className="grid md:grid-cols-2 gap-12 items-start">
                     {/* Left Column: Image and Founder Info */}
@@ -27,7 +27,7 @@ const About = () => {
                         <div className="bg-white p-6 rounded-2xl shadow-md mt-8 text-center">
                             <h3 className="text-2xl font-bold text-gray-900">Dr. Gaurav Garg</h3>
                             <p className="text-red-600 font-semibold">Founder & Chief Physician</p>
-                            <p className="text-gray-500 mt-2">SamistiPur, Bihar, India, 844502</p>
+                            <p className="text-gray-500 mt-2">Samastipur, Bihar, India, 844502</p>
                         </div>
                     </div>
 
@@ -36,10 +36,10 @@ const About = () => {
                         <span className="text-red-600 font-semibold">ABOUT US</span>
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-6">A Dedicated Medical Professional</h2>
                         <p className="text-gray-600 mb-4">
-                            With over 15 years of experience in delivering high-quality patient care, Dr. Gaurav Garg is a board-certified physician specializing in internal medicine. He is passionate about developing and implementing personalized treatment plans and collaborating with healthcare teams to ensure the best outcomes.
+                            With over more than 8 years of experience in delivering high-quality patient care, Dr. Gaurav Garg is a board-certified physician specializing in internal medicine. He is passionate about developing and implementing personalized treatment plans and collaborating with healthcare teams to ensure the best outcomes.
                         </p>
                         <p className="text-gray-600 mb-6">
-                            Our mission is to empower our patients through education and preventive care. We believe in building lasting relationships based on trust and mutual respect.
+                            Our mission is to empower our patients through education, preventive care and to remove medical illiteracy. As per central Bureau of Health intelligence report 60 peoples out of 100 have lack of medical literacy. We believe in building lasting relationships based on trust and mutual respect.
                         </p>
                         <div className="space-y-6">
                             {/*  Expandable Subscription Card --- */}

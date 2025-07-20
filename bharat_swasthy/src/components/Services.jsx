@@ -3,6 +3,7 @@ import { Mail, Phone, MapPin, Clock, Menu, X, Calendar, User, MessageSquare } fr
 import React, { useState, useEffect } from 'react';
 
 const Services = () => {
+    const[isServices, setIsServices] = useState(false);
     const services = [
         { title: 'Real-Time Doctor Availability', description: 'No more waiting for hours. Get live updates on doctor availability, exact appointment times, and estimated wait times.', icon: <Clock className="text-red-600" /> },
         { title: 'Smart Follow-Up Management', description: 'Our intelligent system ensures you never miss a follow-up. Get timely reminders and easily schedule your next visit.', icon: <Calendar className="text-red-600" /> },

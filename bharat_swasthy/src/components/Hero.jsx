@@ -4,7 +4,7 @@ import '../design/Hero.css'
 
 const Hero = ({ onNavigate }) => {
     return (
-        <section id="home" className="relative bg-white pt-8 pb-20 md:pt-4 md:pb-10 overflow-x-hidden">
+        <section id="home" className="relative bg-white pt-8 pb-10 md:pt-4 md:pb-10 overflow-x-hidden">
             <div className="bg-green-100 text-green-800 py-2 mb-8 whitespace-nowrap text-sm font-semibold">
                 <div className="animate-marquee">
                     <span>Approved by Government of India, Ministry of Corporate Affairs | Reg No: U12345ABC67890 | GST No: 22ABCDE1234F1Z5 | CIN: L12345MH67890PLC123456</span>
@@ -12,7 +12,7 @@ const Hero = ({ onNavigate }) => {
             </div>
 
             <div className="container mx-auto px-4 md:px-8 text-center md:text-left">
-                <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div className="grid md:grid-cols-2 gap-4 items-center">
                     <div className="flex flex-col items-center md:items-start">
                         
                         {/* --- NEW: Registration Info ---
