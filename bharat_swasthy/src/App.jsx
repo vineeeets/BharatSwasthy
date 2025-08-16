@@ -8,7 +8,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Doctors from './components/Doctors';
-// import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
     const [activeSection, setActiveSection] = useState('home');
@@ -63,7 +63,7 @@ const App = () => {
                 {renderSection()}
             </main>
             <Footer onNavigate={navigateTo} />
-            {/* <Analytics /> */}
+            <Analytics />
         </div>
     );
 };
