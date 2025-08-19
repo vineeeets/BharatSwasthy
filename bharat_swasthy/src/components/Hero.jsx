@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Clock, Menu, X, Calendar, User, MessageSquare } from 'lucide-react';
 import React, { useState, useEffect } from 'react';
+import doctorImage from '/src/images/Gaurav_Garg_Profile.jpg';
 import '../design/Hero.css'
 
 const Hero = ({ onNavigate }) => {
@@ -38,7 +39,7 @@ const Hero = ({ onNavigate }) => {
                     </div>
                     <div className="relative mt-8 md:mt-0">
                         <img
-                            src="/src/images/Gaurav_Garg_Profile.jpg"
+                            src={doctorImage}
                             alt="Doctor's Portrait"
                             className="rounded-3xl shadow-2xl w-full h-auto object-cover"
                         />
