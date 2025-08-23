@@ -32,7 +32,7 @@ const Hero = ({ onNavigate }) => {
                     </div>
                     <div className="relative mt-8 md:mt-0">
                         <img
-                            src={doctorImage}
+                            src=""
                             alt="Doctor's Portrait"
                             className="rounded-3xl shadow-2xl w-full h-auto object-cover"
                         />
