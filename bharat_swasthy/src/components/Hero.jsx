@@ -15,13 +15,6 @@ const Hero = ({ onNavigate }) => {
             <div className="container mx-auto px-4 md:px-8 text-center md:text-left">
                 <div className="grid md:grid-cols-2 gap-4 items-center">
                     <div className="flex flex-col items-center md:items-start">
-                        
-                        {/* --- NEW: Registration Info ---
-                        <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-gray-500 mb-4 justify-center md:justify-start">
-                            <span>Reg No: U12345ABC67890</span>
-                            <span>GST No: 22ABCDE1234F1Z5</span>
-                            <span>CIN: L12345MH67890PLC123456</span>
-                        </div> */}
 
                         <span className="text-red-600 font-semibold mb-2">INTRODUCING ADVANCED HEALTHCARE</span>
                         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4 leading-tight">
