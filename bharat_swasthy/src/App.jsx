@@ -1,3 +1,5 @@
+import './App.css'
+
 import React, { useState, useEffect } from 'react';
 import { Mail, Phone, MapPin, Clock, Menu, X, Calendar, User, MessageSquare } from 'lucide-react';
 import Header from './components/Header';
